@@ -1,7 +1,7 @@
 {
   "name": "blofin-component",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/blofin-component/src",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "blofin-component/src",
   "projectType": "library",
   "tags": [],
   "// targets": "to see all targets run: nx show project blofin-component --web",

@@ -15,12 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-next/blofin-component": ["libs/blofin-component/src/index.ts"],
-      "@nx-next/blofin-component/server": [
-        "libs/blofin-component/src/server.ts"
-      ],
-      "@nx-next/my-new-lib": ["libs/my-new-lib/src/index.ts"],
-      "@nx-next/my-new-lib/server": ["libs/my-new-lib/src/server.ts"]
+      "@nx-next/blofin-component": ["blofin-component/src/index.ts"],
+      "@nx-next/blofin-component/server": ["blofin-component/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
